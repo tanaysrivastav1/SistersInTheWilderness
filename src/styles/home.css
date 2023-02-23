@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font: 19px / 23px Roboto, "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-container {
+  color: #ffffff; /* set text color to white */
+  background-color: #5d5fef;; /* set background color to a shade of blue */
+  padding: 20px; /* add some padding to the container */
+  text-align: center; /* center align the text */
+  font-size: 36px; /* set the font size to 36px */
+  animation: fadeIn 1s ease-in-out; /* add a fade-in animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
